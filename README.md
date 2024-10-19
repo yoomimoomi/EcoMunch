@@ -1,1 +1,3 @@
 # EcoMunch
+
+EcoMunch is a serviceware return app designed explicitly for Govenors Island that enables restaurants on the island to offer and manage their inventory of reusable plates, cups, utensils, and containers to their customers as well as customers being able to use the app to return the serviceware and earn rewards. The app helps track the serviceware, encourage returns, and reward users for their eco-friendly efforts. Some ways that EcoMunch accommodates for short-term visitors like tourists is that it is easily accessible through the browser and only requires a phone number/email for registration.
