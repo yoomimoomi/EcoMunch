@@ -18,11 +18,11 @@ async function initMap() {
     
   });
 
-  // The marker, positioned at Uluru
+  // The marker, positioned at insertRestaurant
   const marker = new AdvancedMarkerElement({
     map: map,
     position: restaurant,
-    title: "Uluru",
+    title: "exampleRestaurant",
   });
 }
 

@@ -1,3 +1,5 @@
+@import "../vars.css";
+
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
@@ -10,7 +12,7 @@ body {
 .container {
     max-width: 400px;
     margin: auto;
-    background: #fff;
+    background: var(--color-primary);
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
