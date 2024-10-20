@@ -22,8 +22,3 @@ The decision of making a webapp was very difficult since two of our teams develo
 2. Use the app to return used food containers and earn rewards.
 3. Find and explore restaurants and return stations on Governors Island.
 
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
