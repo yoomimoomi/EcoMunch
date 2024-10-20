@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: url('');
 }
 
 .header {
@@ -47,6 +46,12 @@ body {
 
 .button:hover {
     background-color: #BC6C25;
+}
+
+/* Image styling */
+div img {
+    width: 100%;
+    height: auto;
 }
 
 /* To optimize experience for Mobile Devices */
