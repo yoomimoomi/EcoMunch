@@ -25,20 +25,37 @@ However, some apps still store data in less secure ways, which is a risk for use
 
 ## How It Works (User)
 
-1. Scan the QR code at participating locations, you can find these codes all over Governers Island (look next to restaurants and on signboards)
+1. Scan the QR code at participating locations, you can find these codes all over Governers Island, then "click I am a user!" (look next to restaurants and on signboards)
 2. If you are paying cash please put in your name and phone number (Conditional)
 3. When paying for your food, you put down a 1 dollar deposit which is added to your bill. When the vendor processes your payment they tap the card on the vendor version of the app that automaticlly enters you into the reward system as well the database which connects you to your container. Each container has a unique 4-digit containerID, which is linked to the hashed card number at the point of sale
 4. Find and explore restaurants and return stations on Governors Island
 5. After finishing your delectible meal, head on to the map section to find one of our return stations
 6. Once at the return station, scan your container and dip your card to get your deposit back. You can opt for cash or card deposit.
-7. if you paid cash you can enter your phone number, and then opt for one of the two options.
-8. 
+7. if you paid cash you can enter your phone number, and then opt for one of the two options for moneyback.
+8. If you returned your own container you get a dollar of your deposit back. If you returned someone elses container, you make a 70 cent reward. When you return your own containers you can win rewards, such as coupons for your favorite restaurants on the island or merch!
 
+* The reward is slightly lowered to account for Professor Samantha Macbrides concern of disorderly conduct like swiping of patron's wares and returning them for a profit.
 
 ## How it works (Vendor)
-## Integrated Hashing!
 
-When 
+1. As a vendor, navigate to our website and register or sign in.
+2. Create an account allows the user to file an application, which allows the vendor to submit a form to check eligibility for the program
+3. after logging in the vendor can do inventory managment
+4. They also dip the customers card on the purchase section while they pay so, it can be hashed
+   
+## We love integration!
+
+This app is a one stop shop for users and vendors.
+
+Integrations for users - Map, Rewards Tracking, Security features, Login free tracking of finances
+
+Integration for vendors - hassle free payment and reward tracking, apply for eligibility and inventory managment
 
 
+
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
