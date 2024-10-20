@@ -57,7 +57,16 @@ Integration for vendors - hassle free payment and reward tracking, apply for eli
 ## More about the Vending Machine and Hashing 
 ![EcoMunch Turtle Vending Machine](https://github.com/yoomimoomi/EcoMunch/blob/main/assets/Turtlevending.png
 
-The 
+The vending machine like return stations are shaped like animals such as the painted turtle found in the hudson. This incentivizes kids and nature loving adults alike to return their containers. The machines could also play sounds or recite fun facts to make them more interactive. 
+
+Hashing: As aforementioned, card transactions use hashed credit card numbers. But if you pay with cash, we use your hashed phone number (we would never risk your phone number!) and use it to match with the container. 
+
+This regular expression is used to validate the numerical input before it is passed into the function
+def is_valid_number(input_str):
+    return bool(re.match(r'^\d+$', input_str))
+
+"The plate that keeps on giving."
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
