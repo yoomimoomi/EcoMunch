@@ -2,9 +2,10 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: black;
-    color: #f5f6f7;
-    font-family: Tahoma;
+    background-color: #FEFAE0; 
+    background: #FEFAE0 url('background.jpg') no-repeat center center fixed;
+    color: #283618;
+    font-family: Tahoma, sans-serif;
     font-size: 16px;
   }
   
@@ -18,7 +19,10 @@ body {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding-bottom: 2em; 
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for better readability */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   fieldset {
@@ -41,13 +45,15 @@ body {
   select {
     margin: 10px 0 0 0;
     width: 100%;
-    min-height: 2em;
+    min-height: 2em; 
+    border-radius: 10px
   }
   
   input, textarea {
-    background-color: #0e0e3a;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
+  background-color: #283618;
+  border: 1px solid #606C38;
+  color: #ffffff;
+  padding: 0.5em;
   }
   
   .inline {
@@ -62,7 +68,7 @@ body {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #0e0e3a;
+    background-color: #283618;
     border-color: white;
     min-width: 300px;
   }
