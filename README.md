@@ -54,7 +54,10 @@ Integration for vendors - hassle free payment and reward tracking, apply for eli
 
 
 
+## More about the Vending Machine and Hashing 
+![EcoMunch Turtle Vending Machine](https://github.com/yoomimoomi/EcoMunch/blob/main/assets/Turtlevending.png
 
+The 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
