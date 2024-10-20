@@ -1,0 +1,156 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.notification-icon {
+    font-size: 1.5em;
+    color: #FEFAE0;
+}
+
+.level-section {
+    background: #fef4e8;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.level-info {
+    text-align: center;
+}
+
+.level-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    height: 8px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress {
+    background: #ffb74d;
+    height: 100%;
+}
+
+.balance-rewards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.balance, .rewards {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 48%;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.new-items {
+    margin-bottom: 20px;
+}
+
+.new-items h2 {
+    display: inline-block;
+}
+
+.view-menu {
+    background: none;
+    border: none;
+    color: #888;
+    text-decoration: underline;
+    float: right;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.menu-item div {
+    flex-grow: 1;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.menu-item p {
+    margin: 2px 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 12px 12px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: #4caf50;
+}
