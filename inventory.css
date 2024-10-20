@@ -1,0 +1,21 @@
+@import "../vars.css";
+
+* {
+    background-color: var(--color-primary);
+}
+
+.navbar {
+  background-color: var(--color-secondary);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 830px), (max-height: 830px) {
+
+h1 {
+    color: var(--color-text);
+}
+
+}
