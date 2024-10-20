@@ -66,6 +66,7 @@ def is_valid_number(input_str):
     return bool(re.match(r'^\d+$', input_str))
 
 "The plate that keeps on giving."
+## The Python code for the hashing algorithm is in the folder called "Hashing Algorithm"
 
 ## License
 
