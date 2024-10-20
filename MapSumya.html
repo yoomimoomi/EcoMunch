@@ -8,7 +8,6 @@
       <link href="./CSS/mobile.css" rel="stylesheet" />
       <link href="./CSS/rewards.css" rel="stylesheet" />
       
-    <link rel="stylesheet" type="text/css" href="./map.css" />
     <script type="module" src="./map.js"></script>
 </head>
 
@@ -24,13 +23,13 @@
 <ul>
   <li><a href=""> </a>
 
-  <p class="font-dunkin links"><a href="index.html">HOME /</br>OVERVIEW</a></p>
+  <p class="font-dunkin links"><a href="index.html">OUR <br> MISSION</a></p>
   <a href="index.html"> </a>
 
   <p class="links-sub">&nbsp;</p>
   </li>
   <li><a href=""> </a>
-  <p class="font-dunkin links"><a href="map.html">PARTICPATING</br>LOCATIONS</a></p>
+  <p class="font-dunkin links"><a href="map.html">REWARDS</a></p>
   <a href="map.html"> </a>
 
   <p class="links-sub">&nbsp;</p>
@@ -46,9 +45,9 @@
 
 <body>
         <!--The div element for the map -->
-        <div style="height:100%; width:100%;">
-        <div id="map"></div>
-        </div>
+        <container>
+         <div id="map" style="height: 100%; width: 100%; position: absolute"></div>
+        </container>
         <!-- prettier-ignore -->
         <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
             ({key: "AIzaSyA4osGtuM2zv7pxCxncpjfi7yZ7-p2de0I", v: "weekly"});</script>
@@ -57,13 +56,13 @@
       <div class="containerBlue">
           <div class="outerRectangle">
               <div class="default-content">
-              <div class="rectangle"></div>
+              <div>
+                <img src="./assets/littleEva.png" class="rectangle">
+              </div>
               <div class="bottomRectangle">
                   <div class = "titleAndIcons">
-                      <p class="vendorName"></br>Tajin</br></p>
+                      <p class="vendorName"></br>Little Eva's</br></p>
                        <div class = "theIcons">
-                      <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                      <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
                       <a></a>
                            </div>
                   </div>
@@ -71,13 +70,13 @@
                   <div class="tags">
                       <div class="leftSide">
                           <div class="tag">
-                              <p>Mexican</p>
+                              <p>BBQ</p>
                           </div>
                           <div class="tag">
                                 <p>Comfort</p>
                             </div>
                           <div class="tag">
-                                <p>Spicy</p>
+                                <p>Savory</p>
                             </div>
                       </div>
                         <div class="distance">
@@ -87,8 +86,6 @@
               </div></div>
               <div class="hover-content">
                   <div class = "theIcons">
-                        <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                        <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
                         <a></a>
                              </div>
               <p>New content appears!</p>
@@ -97,13 +94,13 @@
             </div>
           <div class="outerRectangle">
             <div class="default-content">
-            <div class="rectangle"></div>
+              <div>
+                <img src="./assets/pizzaYard.png" class="rectangle">
+              </div>
             <div class="bottomRectangle">
                 <div class = "titleAndIcons">
-                    <p class="vendorName"></br>Tajin</br></p>
+                    <p class="vendorName"></br>Pizza Yard</br></p>
                      <div class = "theIcons">
-                    <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                    <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
                     <a></a>
                          </div>
                 </div>
@@ -111,10 +108,86 @@
                 <div class="tags">
                     <div class="leftSide">
                         <div class="tag">
-                            <p>Mexican</p>
+                            <p>Italian</p>
                         </div>
                         <div class="tag">
                               <p>Comfort</p>
+                          </div>
+                        <div class="tag">
+                              <p>Savory</p>
+                          </div>
+                    </div>
+                      <div class="distance">
+                            <p>0.9 mi</p>
+                       </div>
+                </div>
+            </div></div>
+            <div class="hover-content">
+                <div class = "theIcons">
+                      <a></a>
+                           </div>
+            <p>New content appears!</p>
+            </div>
+
+          </div>
+          <div class="outerRectangle">
+            <div class="default-content">
+              <div>
+                <img src="./assets/makina.png" class="rectangle">
+              </div>
+            <div class="bottomRectangle">
+                <div class = "titleAndIcons">
+                    <p class="vendorName"></br>Makina Cafe</br></p>
+                     <div class = "theIcons">
+                    <a></a>
+                         </div>
+                </div>
+
+                <div class="tags">
+                    <div class="leftSide">
+                        <div class="tag">
+                            <p>Ethiopian</p>
+                        </div>
+                        <div class="tag">
+                              <p>Comfort</p>
+                          </div>
+                        <div class="tag">
+                              <p>Spicy</p>
+                          </div>
+                    </div>
+                      <div class="distance">
+                            <p>0.9 mi</p>
+                       </div>
+                </div>
+            </div></div>
+            <div class="hover-content">
+                <div class = "theIcons">
+                      <a></a>
+                           </div>
+            <p>New content appears!</p>
+            </div>
+
+          </div>
+          <div class="outerRectangle">
+            <div class="default-content">
+              <div>
+                <img src="./assets/fauzia.png" class="rectangle">
+              </div>
+            <div class="bottomRectangle">
+                <div class = "titleAndIcons">
+                    <p class="vendorName"></br>Fauzia’s</br></p>
+                     <div class = "theIcons">
+                    <a></a>
+                         </div>
+                </div>
+
+                <div class="tags">
+                    <div class="leftSide">
+                        <div class="tag">
+                            <p>Carribbean</p>
+                        </div>
+                        <div class="tag">
+                              <p>Flavorful</p>
                           </div>
                         <div class="tag">
                               <p>Spicy</p>
@@ -137,13 +210,13 @@
           </div>
           <div class="outerRectangle">
             <div class="default-content">
-            <div class="rectangle"></div>
+              <div>
+                <img src="./assets/tacoVista.png" class="rectangle">
+              </div>
             <div class="bottomRectangle">
                 <div class = "titleAndIcons">
-                    <p class="vendorName"></br>Tajin</br></p>
+                    <p class="vendorName"></br>Taco Vista</br></p>
                      <div class = "theIcons">
-                    <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                    <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
                     <a></a>
                          </div>
                 </div>
@@ -175,126 +248,7 @@
             </div>
 
           </div>
-          <div class="outerRectangle">
-            <div class="default-content">
-            <div class="rectangle"></div>
-            <div class="bottomRectangle">
-                <div class = "titleAndIcons">
-                    <p class="vendorName"></br>Tajin</br></p>
-                     <div class = "theIcons">
-                    <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                    <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                    <a></a>
-                         </div>
-                </div>
-
-                <div class="tags">
-                    <div class="leftSide">
-                        <div class="tag">
-                            <p>Mexican</p>
-                        </div>
-                        <div class="tag">
-                              <p>Comfort</p>
-                          </div>
-                        <div class="tag">
-                              <p>Spicy</p>
-                          </div>
-                    </div>
-                      <div class="distance">
-                            <p>0.9 mi</p>
-                       </div>
-                </div>
-            </div></div>
-            <div class="hover-content">
-                <div class = "theIcons">
-                      <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                      <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                      <a></a>
-                           </div>
-            <p>New content appears!</p>
-            </div>
-
-          </div>
-          <div class="outerRectangle">
-            <div class="default-content">
-            <div class="rectangle"></div>
-            <div class="bottomRectangle">
-                <div class = "titleAndIcons">
-                    <p class="vendorName"></br>Tajin</br></p>
-                     <div class = "theIcons">
-                    <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                    <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                    <a></a>
-                         </div>
-                </div>
-
-                <div class="tags">
-                    <div class="leftSide">
-                        <div class="tag">
-                            <p>Mexican</p>
-                        </div>
-                        <div class="tag">
-                              <p>Comfort</p>
-                          </div>
-                        <div class="tag">
-                              <p>Spicy</p>
-                          </div>
-                    </div>
-                      <div class="distance">
-                            <p>0.9 mi</p>
-                       </div>
-                </div>
-            </div></div>
-            <div class="hover-content">
-                <div class = "theIcons">
-                      <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                      <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                      <a></a>
-                           </div>
-            <p>New content appears!</p>
-            </div>
-
-          </div>
-          <div class="outerRectangle">
-            <div class="default-content">
-            <div class="rectangle"></div>
-            <div class="bottomRectangle">
-                <div class = "titleAndIcons">
-                    <p class="vendorName"></br>Tajin</br></p>
-                     <div class = "theIcons">
-                    <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                    <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                    <a></a>
-                         </div>
-                </div>
-
-                <div class="tags">
-                    <div class="leftSide">
-                        <div class="tag">
-                            <p>Mexican</p>
-                        </div>
-                        <div class="tag">
-                              <p>Comfort</p>
-                          </div>
-                        <div class="tag">
-                              <p>Spicy</p>
-                          </div>
-                    </div>
-                      <div class="distance">
-                            <p>0.9 mi</p>
-                       </div>
-                </div>
-            </div></div>
-            <div class="hover-content">
-                <div class = "theIcons">
-                      <a href=""> <img alt="dunkin" src="./IMGs/direction.png" /> </a>
-                      <a href=""> <img alt="dunkin" src="./IMGs/information.png" /> </a>
-                      <a></a>
-                           </div>
-            <p>New content appears!</p>
-            </div>
-
-          </div>
+     
           
         
       </div>
